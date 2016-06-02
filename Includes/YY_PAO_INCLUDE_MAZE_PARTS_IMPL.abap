@@ -29,7 +29,6 @@ ENDCLASS.
 *& class declarations for Room
 CLASS lcl_room IMPLEMENTATION.
   METHOD constructor.
-    super->constructor( ).
     mv_room_number = iv_number.
     mt_sides = VALUE #( FOR i = 1 UNTIL i > 4 ( ) ).
   ENDMETHOD.
@@ -58,7 +57,6 @@ ENDCLASS.
 *& class declarations for Door
 CLASS lcl_door IMPLEMENTATION.
   METHOD constructor.
-    super->constructor( ).
     mo_room1 = io_room1.
     mo_room2 = io_room2.
   ENDMETHOD.

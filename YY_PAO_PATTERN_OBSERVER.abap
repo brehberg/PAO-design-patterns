@@ -107,7 +107,7 @@ ENDCLASS.
 CLASS lcl_widget DEFINITION ABSTRACT.
   PUBLIC SECTION.
     METHODS:
-      draw ABSTRACT.       " defines how to draw the digital clock
+      draw ABSTRACT.
     "...
 ENDCLASS.
 

@@ -67,7 +67,6 @@ ENDCLASS.
 
 CLASS lcl_decorator IMPLEMENTATION.
   METHOD constructor.
-    super->constructor( ).
     mo_component = io_component.
   ENDMETHOD.
   METHOD lif_visual_component~draw.
